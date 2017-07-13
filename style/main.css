@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase; }
+
+.wrapper {
+  background: #fafafa;
+  position: relative;
+  height: 100vh;
+  width: 100vw; }
+
+.container {
+  background: #d4e797;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vw;
+  top: 50vh;
+  left: 50vw;
+  border-radius: 2em;
+  transform: translate3d(-50%, -50%, 0);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  transition: all 200ms; }
+  @media (max-width: 60em) {
+    .container {
+      height: 66.66667vh;
+      width: 66.66667vw; } }
+  @media (max-width: 30em) {
+    .container {
+      height: 80vh;
+      width: 90.90909vw; } }
+
+.heading,
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em; }
+
+.heading {
+  flex: 2; }
+  .heading span {
+    font-family: "Bungee Shade", cursive;
+    font-size: 3em; }
+    @media (max-width: 60em) {
+      .heading span {
+        font-size: 2em; } }
+    @media (max-width: 30em) {
+      .heading span {
+        font-size: 1.5em; } }
+
+.description {
+  flex: 1; }
+  .description span {
+    font-size: 1em; }
+    @media (max-width: 60em) {
+      .description span {
+        font-size: 0.75em; } }
+
+/*# sourceMappingURL=main.css.map */
